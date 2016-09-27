@@ -30,6 +30,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	  MaxAndMin(arr, sizeof(arr)/sizeof(int), &maxPtr, &minPtr);
 	  printf("최대 : %d, 최소 : %d \n", *maxPtr, minPtr);
-
+	
 	  return 0;
 }
